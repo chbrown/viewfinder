@@ -1,0 +1,42 @@
+{
+  "name": "viewfinder",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/chbrown/viewfinder",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chbrown/viewfinder.git"
+  },
+  "bugs": {
+    "email": "Christopher Brown <io@henrian.com>",
+    "url": "http://github.com/chbrown/viewfinder/issues"
+  },
+  "license": "MIT",
+  "author": "Christopher Brown <io@henrian.com> (http://henrian.com)",
+  "dependencies": {
+    "async": "*",
+    "epeg": "*",
+    "node-image": "*",
+    "optimist": "*",
+    "underscore": "*"
+  },
+  "devDependencies": {
+  },
+  "bin": {
+  },
+  "scripts": {
+  },
+  "staticPattern": "static/lib/{file}",
+  "staticDependencies": {
+    "angular": "*",
+    "misc-js": "git://github.com/chbrown/misc-js.git",
+    "moment": "*",
+    "ngStorage": {
+      "url": "git://github.com/gsklee/ngStorage.git",
+      "filter": ["ngStorage.js", "ngStorage.min.js"]
+    },
+    "lo-dash": "*",
+    "react": "*"
+  }
+}
